@@ -1,0 +1,53 @@
+body{
+    background-color:#E5E5E5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.box {
+    width: 300px;
+    display: grid;
+    text-align: center;
+}
+  
+.box img{
+    float: right;
+    margin-top: 45px
+}
+
+#header{
+    text-align: center;
+}
+
+.intro{
+    font-weight: 200;
+    text-align: center;
+}
+
+.intro1{
+    font-weight: 600;
+    text-align: center;
+}
+
+.wrapper{
+    width: 720px;
+    text-align: center;
+}
+
+@media only screen and (min-width:1280px){
+    .col {
+        width: 33.1%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+
